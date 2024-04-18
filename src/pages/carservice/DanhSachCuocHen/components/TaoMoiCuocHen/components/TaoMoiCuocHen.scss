@@ -1,0 +1,241 @@
+.TaoMoiCuocHen {
+  .header-content {
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    top: 50px;
+    left: 0;
+    z-index: 1000;
+    border-bottom: 1px solid #bebebe;
+  }
+
+  .base-gridview {
+    height: 300px;
+  }
+
+  .dx-datagrid-rowsview .dx-selection.dx-row:not(.dx-row-focused) > td {
+    background-color: #b8e1b5 !important;
+  }
+
+  .btn-cancel {
+    .dx-button-text {
+      color: #000;
+    }
+  }
+
+  .dx-popup-wrapper {
+    .base-gridview {
+      height: 500px !important;
+      z-index: 1;
+    }
+
+    .dx-popup-bottom {
+      overflow: hidden;
+      z-index: 999999 !important;
+    }
+  }
+
+  .button-group {
+  }
+
+  .hook-form-textbox,
+  .hook-form-selectbox,
+  .hook-form-datebox,
+  hook-form-upload {
+    label {
+      width: 100px;
+      min-width: 100px;
+      word-break: auto-phrase;
+      font-size: 13px;
+    }
+
+    .dx-texteditor-input[aria-readonly="true"] {
+      font-weight: 600 !important;
+    }
+
+    .dx-placeholder {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .dx-selectbox-container
+      .dx-texteditor-container
+      .dx-texteditor-input-container
+      .dx-placeholder:before {
+      padding: 11px 11px 8px !important;
+    }
+
+    input {
+      font-weight: 600 !important;
+    }
+  }
+
+  // .label-end {
+  //   label {
+  //     text-align: end;
+  //   }
+  // }
+
+  .dx-datagrid-header-panel {
+    display: none;
+  }
+
+  .lsgc {
+    .base-gridview {
+      height: 200px;
+    }
+  }
+
+  .hook-form-textarea {
+    label {
+      width: auto;
+      min-width: 100px;
+      word-break: auto-phrase;
+      font-size: 13px;
+      font-weight: 600;
+    }
+    width: 100%;
+  }
+
+  .chuxe {
+    .hook-form-textarea {
+      height: 100%;
+      margin: 0;
+
+      .dx-textarea {
+        height: calc(100% - 30px);
+      }
+    }
+  }
+
+  .total {
+    label {
+      font-weight: 600;
+    }
+  }
+
+  .min-label {
+    .hook-form-textbox {
+      label {
+        min-width: 55px;
+      }
+    }
+  }
+
+  .header-content {
+    .dms-sidebar__toolbar {
+      margin-right: 10px;
+      height: 24px;
+      width: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  .ghichu {
+    align-items: baseline;
+
+    label {
+      text-decoration: underline;
+      font-style: italic;
+    }
+  }
+}
+
+.dx-drawer-opened {
+  .TaoMoiCuocHen {
+    .header-content {
+      left: 250px;
+      width: calc(100% - 250px);
+    }
+
+    .dtkh {
+      label {
+        min-width: 65px;
+      }
+    }
+
+    .ttkh {
+      input {
+        font-size: 12px;
+      }
+    }
+
+    .ttx {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .header-content {
+      .dms-sidebar__toolbar {
+        display: none;
+      }
+    }
+  }
+}
+
+.image-table {
+  .dx-datagrid-header-panel {
+    display: none;
+  }
+
+  .dx-datagrid-rowsview .dx-selection.dx-row:not(.dx-row-focused) > td {
+    background-color: rgb(207 255 233);
+  }
+
+  .dx-datagrid .dx-datagrid-headers .dx-row td[role="gridcell"],
+  .dx-datagrid .dx-datagrid-rowsview .dx-row td[role="gridcell"] {
+    font-size: 11px;
+  }
+
+  .dx-header-row td[role="columnheader"] .dx-datagrid-text-content {
+    font-size: 11px;
+  }
+}
+
+.thongtinkhachhang-popup {
+  label {
+    font-size: 11px !important;
+  }
+
+  .dx-placeholder {
+    font-size: 11px !important;
+  }
+
+  .hook-form-textbox,
+  .hook-form-selectbox,
+  .hook-form-datebox {
+    margin: 2px 0;
+  }
+
+  .dx-texteditor {
+    height: 25px !important;
+  }
+}
+
+.custom-popup {
+  .dx-popup-title {
+    height: 30px !important;
+
+    .dx-toolbar-items-container {
+      height: 30px !important;
+    }
+
+    .dx-toolbar-label {
+      .dx-item-content {
+        font-size: 13px !important;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .dx-popup-content-scrollable {
+    overflow: hidden;
+  }
+
+  .dx-popup-bottom {
+    position: relative;
+    z-index: 999;
+  }
+}

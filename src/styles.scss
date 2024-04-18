@@ -1,0 +1,108 @@
+@import "./custom-styles/datagrid";
+@import "./custom-styles/button";
+@import "./custom-styles/input";
+@import "./custom-styles/form";
+@import "./custom-styles/common";
+
+.btn-search {
+  .dx-button-content {
+    padding-top: 6px !important;
+    padding-bottom: 6px !important;
+  }
+
+  .dx-button-text {
+    text-transform: none !important;
+    font-size: 14px;
+  }
+}
+
+.search-car .dx-popup-content {
+  padding: 0 !important;
+}
+
+.applyCutomColumn {
+  padding: 0 !important;
+}
+
+#searchForm form {
+  transform: translateX(-13px);
+  margin-left: 13px !important;
+}
+.btn-search-car {
+  position: fixed;
+  bottom: 44px;
+  border-bottom: 1px solid #e1e5e8;
+  border-right: 1px solid #e1e5e8;
+  background-color: #ffff !important;
+}
+.search-results {
+  width: 100%;
+}
+.save-button {
+  margin-right: 10px !important;
+}
+.dx-datagrid-rowsview .dx-data-row:not(.dx-edit-row) .dx-cell-modified {
+  background-color: transparent !important;
+}
+// #searchForm .dx-scrollbar-vertical.dx-scrollbar-hoverable {
+//   transform: translateX(10px) !important;
+// }
+// #searchForm .dx-box-item:nth-last-child(2) {
+//   margin-bottom: 40px;
+// }
+.dx-texteditor-container {
+  border-radius: 3px;
+  background-color: #fff;
+  border: 0.5px solid #5f7d95;
+  .dx-placeholder {
+    color: #5f7d95;
+    font-size: 400;
+  }
+}
+.dx-end-datebox {
+  border: none !important;
+}
+#searchForm .headerSearch {
+  background-color: #ffff;
+  width: 300px;
+  border-right: 0.5px solid #e1e5e8;
+}
+.dx-checkbox-icon {
+  width: 14px !important;
+  height: 14px !important;
+}
+.dx-clear-button-area {
+  background-color: #ffff;
+}
+// .dx-icon-clear {
+//   background-image: url("../public/images/icons/clearbutton.svg");
+// }
+
+.dx-checkbox-icon {
+  border: solid 1px #5f7d95 !important;
+}
+
+.textArea .dx-field-item-label {
+  transform: translateY(-6px) !important;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.dx-layout-manager .dx-label-h-align.dx-flex-layout .dx-field-item-label {
+  width: 150px;
+}
+
+.dx-field-item-label-text {
+  width: 150px;
+  text-wrap: balance;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.position-absolute {
+  position: absolute !important;
+}

@@ -1,0 +1,36 @@
+.btn-add-dynamic-field {
+  div {
+    background-color: #00703c !important;
+    div {
+      i {
+        color: #fff !important;
+      }
+    }
+  }
+}
+.select-map-field-container {
+  .dx-selectbox {
+    width: 90% !important;
+  }
+}
+
+.form-select-map-field-container {
+  .dx-item-content {
+    width: 100% !important;
+    .dx-box-item:nth-child(1) {
+      // width: 45% !important;
+      flex: unset !important;
+    }
+    .dx-box-item:nth-child(2) {
+      // width: 45% !important;
+      flex: unset !important;
+    }
+    .dx-box-item:nth-child(3) {
+      // width: 10% !important;
+      flex: unset !important;
+      .form-select-map-field-group-item {
+        padding-left: 0 !important;
+      }
+    }
+  }
+}

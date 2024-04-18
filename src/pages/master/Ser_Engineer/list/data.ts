@@ -1,0 +1,51 @@
+export const MstStaffData = [
+  {
+    StaffCode: "CVDV",
+    StaffName: "1. Cố vấn dịch vụ",
+    FlagActive: "1",
+    LogLUDateTime: "2022-09-23T09:00:00",
+    LogLUBy: "SYS",
+  },
+  {
+    StaffCode: "BDN",
+    StaffName: "2. Kỹ Thuật Viên bảo dưỡng nhanh",
+    FlagActive: "1",
+    LogLUDateTime: "2022-09-23T09:00:00",
+    LogLUBy: "SYS",
+  },
+  {
+    StaffCode: "SCC",
+    StaffName: "3. Kỹ thuật viên sửa chữa chung  ",
+    FlagActive: "1",
+    LogLUDateTime: "2022-09-23T09:00:00",
+    LogLUBy: "SYS",
+  },
+  {
+    StaffCode: "KTVD",
+    StaffName: "4. Kỹ thuật viên đồng",
+    FlagActive: "1",
+    LogLUDateTime: "2022-09-23T09:00:00",
+    LogLUBy: "SYS",
+  },
+  {
+    StaffCode: "KTVS",
+    StaffName: "5. Kỹ thuật viên sơn",
+    FlagActive: "1",
+    LogLUDateTime: "2022-09-23T09:00:00",
+    LogLUBy: "SYS",
+  },
+  {
+    StaffCode: "NVPT",
+    StaffName: "6. Nhân viên phụ tùng  ",
+    FlagActive: "1",
+    LogLUDateTime: "2022-09-23T09:00:00",
+    LogLUBy: "SYS",
+  },
+  {
+    StaffCode: "KHAC",
+    StaffName: "7. Nhân viên khác (Rửa xe, thu ngân,…)",
+    FlagActive: "1",
+    LogLUDateTime: "2022-09-23T09:00:00",
+    LogLUBy: "SYS",
+  },
+];

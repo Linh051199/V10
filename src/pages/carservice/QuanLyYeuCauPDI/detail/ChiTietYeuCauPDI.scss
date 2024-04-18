@@ -1,0 +1,37 @@
+.ChiTietYeuCauPDI {
+  .header-content {
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    top: 50px;
+    left: 0;
+    z-index: 1000;
+    border-bottom: 1px solid #bebebe;
+  }
+
+  .header-content {
+    .dms-sidebar__toolbar {
+      margin-right: 10px;
+      height: 24px;
+      width: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+
+.dx-drawer-opened {
+  .ChiTietYeuCauPDI {
+    .header-content {
+      left: 250px;
+      width: calc(100% - 250px);
+    }
+
+    .header-content {
+      .dms-sidebar__toolbar {
+        display: none;
+      }
+    }
+  }
+}

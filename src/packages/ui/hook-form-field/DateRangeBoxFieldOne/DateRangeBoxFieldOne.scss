@@ -1,0 +1,84 @@
+.date-range-box-field-one {
+  margin-bottom: 5px;
+  .dx-invalid-message.dx-overlay {
+    position: absolute !important;
+    .dx-overlay-wrapper {
+      max-width: 284px;
+      visibility: visible !important;
+      height: 30px !important;
+      left: -10px !important;
+      top: 30px !important;
+    }
+  }
+}
+
+.dx-layout-manager .dx-field-item:not(.dx-first-row) {
+  padding-top: 0 !important;
+  // padding-bottom: 0px !important;
+}
+
+.show-icon-error-require {
+  ::after {
+    pointer-events: none;
+    position: absolute;
+    top: 50%;
+    margin-top: -8px;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    line-height: 17px;
+    font-size: 13px;
+    font-weight: 500;
+    background-color: #f44336;
+    color: #fff;
+    content: "!";
+    border-radius: 50%;
+  }
+}
+.date-require-from .dx-invalid .dx-start-datebox {
+  .dx-texteditor-input-container {
+    ::after {
+      pointer-events: none;
+      position: absolute;
+      top: 50%;
+      margin-top: -8px;
+      width: 16px;
+      height: 16px;
+      text-align: center;
+      line-height: 17px;
+      font-size: 13px;
+      font-weight: 500;
+      background-color: #f44336;
+      color: #fff;
+      content: "!";
+      border-radius: 50%;
+      right: -80px;
+    }
+  }
+}
+
+.date-require-from {
+  .dx-invalid.dx-texteditor.dx-show-invalid-badge .dx-texteditor-input-container::after {
+    display: none;
+  }
+  .dx-invalid {
+    .dx-overlay-wrapper {
+      max-width: 284px;
+      visibility: visible !important;
+      height: 30px !important;
+      left: -10px !important;
+      top: 30px !important;
+    }
+  }
+  .dx-invalid-message {
+    visibility: visible !important;
+  }
+}
+
+.show-text-require-from {
+  .dx-invalid {
+    .dx-overlay-wrapper {
+      visibility: hidden !important;
+    }
+  }
+}

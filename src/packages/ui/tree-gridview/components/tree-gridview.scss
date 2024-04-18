@@ -1,0 +1,102 @@
+/* header filter */
+.dx-header-filter-menu {
+  .dx-overlay-content {
+    .dx-popup-content {
+      border-bottom: none;
+      padding: 10px;
+    }
+  }
+
+  .dx-popup-bottom {
+    border-top: 0.5px solid #dfdfdf;
+  }
+
+  &.dx-popup-wrapper {
+    .dx-list-search {
+      .dx-texteditor-input-container {
+        .dx-placeholder {
+          &:before {
+            padding: 0 0 0 32px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.GridViewPopup {
+  #gridContainer {
+    .dx-popup-content {
+      padding: 10px 20px 10px 20px !important;
+      background-color: #ffffff !important;
+    }
+  }
+}
+
+.base-gridview {
+  #gridContainer {
+    .dx-popup-content {
+      padding: 4px;
+      background-color: #ffffff !important;
+    }
+
+    .dx-datagrid {
+      background: #ffffff;
+
+      .dx-datagrid-header-panel {
+        background: #ffffff;
+
+        .dx-toolbar {
+          background: #ffffff;
+        }
+      }
+
+      .dx-datagrid-table {
+        .dx-col-fixed {
+          background: #ffffff;
+        }
+      }
+    }
+  }
+
+  .dx-datagrid-header-panel {
+    .dx-toolbar {
+      .dx-toolbar-after {
+        .dx-toolbar-item {
+          &:nth-last-child(2) {
+            margin-right: 60px;
+
+            .dx-toolbar-item-content {
+            }
+          }
+
+          &:last-child {
+            width: 60px;
+
+            .dx-toolbar-item-content {
+              display: flex;
+              justify-content: center;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.card-view {
+  text-align: left;
+  font-weight: 500;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  background-color: #ffffff;
+}
+.dx-datagrid .dx-datagrid-rowsview .dx-datagrid-table .dx-row[role="row"] {
+  border: 1px solid #e8e8e8;
+}
+//
+.ToolbarButton {
+  background-color: #00703c !important;
+}
+.ToolbarButton:hover {
+  background-color: #09492b !important;
+}

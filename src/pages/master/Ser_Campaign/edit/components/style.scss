@@ -1,0 +1,32 @@
+.ser_campaignedit {
+  #search-pane {
+    display: none;
+  }
+
+  .hook-form-datebox {
+    label {
+      display: flex;
+      justify-content: end;
+    }
+  }
+
+  .hook-form-textbox {
+    label {
+      display: flex;
+      justify-content: end;
+    }
+  }
+
+  .hook-form-textarea {
+    align-items: start;
+    label {
+      height: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: end;
+    }
+    textarea {
+      height: 70px;
+    }
+  }
+}

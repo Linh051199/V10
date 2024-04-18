@@ -1,0 +1,21 @@
+.date-range-field {
+  .dx-texteditor-container {
+    background-color: #ffff;
+    border: 0.5px solid #5f7d95;
+    border-radius: 2px;
+    .dx-texteditor-input-container {
+      background-color: #ffff;
+      .dx-placeholder {
+        top: -4px;
+      }
+      .dx-texteditor-input {
+        padding: 4px;
+      }
+    }
+  }
+  .dx-invalid-message {
+    &.dx-overlay {
+      white-space: nowrap;
+    }
+  }
+}

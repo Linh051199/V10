@@ -1,0 +1,31 @@
+.select-field {
+  .dx-selectbox {
+    .dx-selectbox-container {
+      .dx-texteditor-container {
+        border: 0.5px solid #5f7d95;
+        border-radius: 3px;
+        background: #ffffff;
+        height: 30px;
+        .dx-texteditor-input[role="combobox"] {
+          font-size: 13px;
+          padding-left: 10px;
+          font-weight: 500;
+          color: #0e223d;
+        }
+      }
+    }
+  }
+}
+.dx-root-simple-item {
+  .dms-form-field {
+    &.dx-field-item {
+      padding-bottom: 0;
+    }
+  }
+  .dx-field-item-label {
+    &.dx-field-item-label-location-top {
+      padding-bottom: 6px;
+    }
+  }
+  margin-bottom: 0;
+}

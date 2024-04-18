@@ -1,0 +1,61 @@
+#search-panel-v2 {
+  position: relative;
+  .dx-box-item:last-child {
+    // position: fixed;
+    // background: white;
+    bottom: 25px;
+    .btn-search {
+      z-index: 1;
+    }
+  }
+
+  .dx-form > .dx-scrollable-wrapper > .dx-scrollable-container {
+    padding-left: 0px !important;
+    padding-right: 10px !important;
+  }
+
+  .btn-search-v2 {
+    transform: translateX(-5px);
+    -webkit-transform: translateX(-5px);
+    -moz-transform: translateX(-5px);
+    -ms-transform: translateX(-5px);
+    -o-transform: translateX(-5px);
+  }
+
+  &.search-panel-hidden-v2 {
+    .dx-box-item:last-child {
+      .btn-search-v2 {
+        display: none;
+      }
+    }
+  }
+
+  #form-search {
+    .dx-scrollable-content {
+      height: 100%;
+    }
+
+    .dx-layout-manager.dx-widget {
+      height: 100%;
+    }
+
+    .form-group-item-first-child {
+      height: 100%;
+      overflow: auto;
+    }
+
+    .dx-box-flex {
+      &.dx-box {
+        & .dx-item.dx-box-item:first-child {
+          height: 100%;
+        }
+      }
+    }
+
+    .form-group-item-last-child {
+    }
+  }
+
+  .dx-box-item:nth-last-child(2) {
+  }
+}

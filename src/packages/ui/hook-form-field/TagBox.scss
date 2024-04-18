@@ -1,0 +1,15 @@
+.dx-tagbox.dx-texteditor {
+  height: auto;
+}
+
+.dx-tagbox {
+  .dx-texteditor-input[aria-readonly="true"] {
+    background-color: transparent !important;
+  }
+
+  &.dx-state-readonly {
+    .dx-texteditor-container {
+      background-color: #e9ebf3;
+    }
+  }
+}

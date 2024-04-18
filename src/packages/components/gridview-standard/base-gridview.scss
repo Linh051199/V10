@@ -1,0 +1,143 @@
+/* header filter */
+.dx-header-filter-menu {
+  .dx-overlay-content {
+    .dx-popup-content {
+      height: auto;
+      border-bottom: none;
+      padding: 10px;
+    }
+  }
+
+  .dx-popup-bottom {
+    border-top: 0.5px solid #dfdfdf;
+  }
+
+  &.dx-popup-wrapper {
+    .dx-list-search {
+      .dx-texteditor-input-container {
+        .dx-placeholder {
+          &:before {
+            padding: 0 0 0 32px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.GridRight .dx-header-filter,
+.GridLeft .dx-header-filter {
+  padding-left: 210px !important;
+}
+.dx-header-filter-menu .dx-popup-bottom.dx-toolbar .dx-toolbar-after {
+  flex-direction: inherit !important;
+}
+
+.grid-view-customize {
+  .dx-datagrid {
+    td[role="gridcell"] {
+      font-size: 13px !important;
+    }
+    .dx-datagrid-header-panel {
+      .dx-toolbar-after {
+        .dx-toolbar-item:last-child {
+          display: none !important;
+        }
+      }
+    }
+  }
+}
+.ToolbarButton {
+  background-color: #00703c !important;
+}
+.ToolbarButton:hover {
+  background-color: #09492b !important;
+}
+.base-gridview {
+  #gridContainer {
+    .dx-popup-content {
+      padding: 4px;
+    }
+  }
+  .dx-datagrid {
+    background: #ffffff;
+    td[role="gridcell"] {
+      font-size: 13px !important;
+    }
+    .dx-datagrid-content
+      .dx-datagrid-table
+      .dx-row
+      > td:not(.dx-validation-pending):not(
+        .dx-datagrid-select-all
+      ).dx-command-select {
+      background-color: #ffffff;
+    }
+    .dx-datagrid-header-panel {
+      background: #ffffff;
+      .dx-toolbar-after {
+        .dx-item-content {
+          display: flex;
+          align-items: center;
+        }
+        .dx-toolbar {
+          background: #ffffff;
+        }
+        .dx-toolbar-item:last-child {
+          // display: none !important;
+        }
+      }
+
+      .dx-datagrid-table {
+        .dx-col-fixed {
+          background: #ffffff;
+        }
+
+        .dx-column-indicators {
+          margin-left: 10px !important;
+          float: right !important;
+        }
+      }
+    }
+    .dx-datagrid-rowsview .dx-row td[role="gridcell"] {
+      padding: 12px 12px;
+    }
+  }
+  .TextLeftSLA[role="gridcell"] {
+    text-align: right !important;
+  }
+  .TextLeftGrid {
+    text-align: right !important;
+  }
+  .toggle__search {
+    padding: 9px;
+    color: #5f7d95;
+  }
+  .toggle__search:hover {
+    background-color: #eaf9f2 !important;
+    color: #00703c;
+  }
+
+  .dx-datagrid-header-panel {
+    .dx-toolbar {
+      .dx-toolbar-after {
+        .dx-toolbar-item {
+          &:nth-last-child(2) {
+            margin-right: 60px;
+
+            .dx-toolbar-item-content {
+            }
+          }
+
+          &:last-child {
+            // width: 60px;
+
+            .dx-toolbar-item-content {
+              display: flex;
+              justify-content: center;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+.dms-business-grid {
+  background: #ffffff;
+  .dx-datagrid {
+    background: #ffffff !important;
+    .dx-datagrid-header-panel {
+      background: #ffffff !important;
+      .dx-toolbar {
+        background: #ffffff !important;
+        padding: 5px 0 5px 0 !important;
+      }
+    }
+    .dx-command-select {
+      background: #ffffff !important;
+    }
+    .dx-datagrid-rowsview .dx-row td[role="gridcell"] {
+      padding: 12px 12px;
+    }
+    td[role="gridcell"] {
+      font-size: 13px !important;
+    }
+  }
+
+  .toggle__search {
+    padding: 9px;
+    color: #5f7d95;
+  }
+  .toggle__search:hover {
+    background-color: #eaf9f2 !important;
+    color: #00703c;
+  }
+  .dx-datagrid-headers {
+    background: #ffffff !important;
+    .dx-datagrid-nowrap {
+      background: #ffffff !important;
+    }
+    .dx-row {
+      &.dx-header-row {
+        background: #ffffff !important;
+      }
+    }
+  }
+}

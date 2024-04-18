@@ -1,0 +1,32 @@
+.demo-dropdown {
+  .dx-popup-normal {
+    .dx-popup-title {
+      z-index: 100;
+      position: absolute !important;
+      bottom: 0;
+      left: 0;
+
+      .dx-toolbar-item-content {
+        background-color: #00703c;
+      }
+
+      .dx-button-mode-text.dx-button-default .dx-icon {
+        color: #fff;
+      }
+    }
+  }
+}
+
+.taomoikhuyenmai {
+  .dx-radiogroup-vertical {
+    .dx-collection {
+      flex-direction: column;
+    }
+  }
+
+  .dx-numberbox {
+    input {
+      text-align: right;
+    }
+  }
+}

@@ -1,0 +1,37 @@
+.double-checkbox {
+  display: flex;
+  // justify-content: space-evenly;
+  align-items: center;
+  .dx-checkbox {
+    margin-left: 0;
+  }
+  .dx-checkbox-container {
+    justify-content: center;
+  }
+  .dx-checkbox-icon {
+    width: 20px !important;
+    height: 20px !important;
+  }
+}
+.w-60 {
+  width: 240px !important;
+}
+.description-title {
+  max-height: 30px;
+}
+.mt-30 {
+  margin-top: 30px;
+}
+.signing-position {
+  // padding-bottom: 40px;
+  height: 250px;
+  flex: 1;
+  // display: flex;
+  // justify-content: center;
+}
+.gap-10 {
+  gap: 40px;
+}
+h5 {
+  // font-weight: 600 !importants;
+}

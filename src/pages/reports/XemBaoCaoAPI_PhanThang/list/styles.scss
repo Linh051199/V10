@@ -1,0 +1,54 @@
+.DateBox-BaoCaoXemKPI {
+  margin-left: 12px !important;
+}
+#TreeList_DMS {
+  .dx-treelist-text-content {
+    color: black;
+    // font-size: 30px !important;
+  }
+  .dx-treelist-rowsview .dx-treelist-expanded span::before {
+    // content: "\2013" !important;
+    // content: "";
+    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cline x1='5' y1='12' x2='19' y2='12'%3E%3C/line%3E%3C/svg%3E") !important;
+    // content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='4'%3E%3C/circle%3E%3Cpath d='M2 12s5-8 10-8 10 8 10 8-5 8-10 8-10-8-10-8z'%3E%3C/path%3E%3C/svg%3E") !important;
+
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    // background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="transparent" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4 11H8v-2h8v2z"/></svg>')
+    //   no-repeat;
+    // background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="red"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>    ')
+    // no-repeat;
+    background-size: contain;
+  }
+  .dx-treelist-rowsview .dx-treelist-collapsed span::before {
+    // content: "\002b" !important;
+    // content: "<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox="0 0 24 24"> <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4 11h-4v4h-2v-4H6v-2h4V6h2v4h4v2z'/></svg>" !important;
+
+    // content: "";
+    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cline x1='12' y1='5' x2='12' y2='19'%3E%3C/line%3E%3Cline x1='5' y1='12' x2='19' y2='12'%3E%3C/line%3E%3C/svg%3E") !important;
+    // content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cline x1='18' y1='6' x2='6' y2='18'%3E%3C/line%3E%3Cline x1='6' y1='6' x2='18' y2='18'%3E%3C/line%3E%3C/svg%3E") !important;
+    display: inline-block;
+    width: 16px; /* set the width and height according to your needs */
+    height: 16px;
+    // background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="brown" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4 11h-4v4h-2v-4H6v-2h4V6h2v4h4v2z"/></svg>')
+    // background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="red"><text x="50%" y="50%" dy=".35em" text-anchor="middle">:</text></svg>    ')
+    // no-repeat;
+    background-size: contain; /* or 'cover' based on your preference */
+  }
+}
+// tbody[role="presentation"] .dx-treelist-cell-expandable[aria-colindex="1"] {
+//   padding-left: 34px !important;
+// }
+
+#TreeList_DMS .dx-row-lines[aria-level="1"] {
+  background-color: #e0e0e0 !important;
+  .dx-treelist-cell-expandable[aria-colindex="1"] {
+    padding-left: 34px !important;
+    .dx-treelist-text-content {
+      color: #100101;
+      font-size: 14px;
+      font-weight: 900;
+    }
+  }
+}

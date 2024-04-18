@@ -1,0 +1,83 @@
+.group-item-customize {
+  div {
+    div {
+      .dx-form-group-caption {
+        font-weight: bolder !important;
+      }
+    }
+  }
+}
+
+/* ép cái ô textbox "Khác" phải có flex basis là 1 */
+.group-item-customize.group-item-padding-children.flex-basis-0 {
+  .dx-form-group-content {
+    .dx-item-content {
+      flex-grow: 1 !important;
+    }
+  }
+}
+
+/* chỉnh cái ô checkbox về bên trái label mà k bị ảnh hưởng đến toàn form  */
+.group-item-customize {
+  .dx-form-group-content {
+    .dx-item-content {
+      flex-grow: unset !important;
+    }
+  }
+}
+.group-item-customize.group-item-padding-children {
+  div {
+    div {
+      .dx-form-group-caption {
+        font-weight: bolder !important;
+      }
+      div {
+        .dx-layout-manager.dx-widget {
+          margin-left: 20px !important;
+        }
+      }
+    }
+  }
+}
+
+.padding-number-right {
+  div {
+    div {
+      input {
+        padding-right: 10px !important;
+      }
+    }
+  }
+}
+
+.mst-param-option-form {
+  .dx-layout-manager {
+    .dx-widget {
+      .dx-box-flex {
+        .dx-item {
+          .dx-box-item-content {
+            justify-content: space-evenly !important;
+            .dx-box-item:first-child {
+              display: block !important;
+              flex: unset !important;
+              .mst-param-option-group-item-left {
+                margin-top: 35px !important;
+                .mst-param-option-II-storage-part {
+                  margin-top: 20px !important;
+                }
+              }
+            }
+            .dx-box-item:last-child {
+              display: block !important;
+              flex: unset !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.mst-param-option-V-others {
+  margin-left: -215px !important;
+}

@@ -1,0 +1,27 @@
+@import "../../../../themes/variables.common";
+
+.province-management {
+  .dx-edit-row {
+    background-color: $base-accent-highlight-color;
+  }
+
+  .dx-icon-clear {
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHHSURBVHgBrVNdTsJAEJ7ZAjFGE29gPQF6AusNPIDB9tEQorz5gLqoib6hQcKj6wngBnAD8ASWGxDlAWHZdXahpTTEF91ku38z33wz8xXgjwPXXZ5U6h4DdogIrjlrrQZMSiEey+GvAP5FbUdv515pe6y1HtBr3xohyxOKARM4nVSTQDGAf1lzdTbXIWtANQvEfam7Al6pH2vm1AgI8GtyIJ7KQ3PPIgOVyXLrzPAIpAzTVGEku/aNbBYsIQYw0RHxFKezMsB4qLPZXqHSuImMCtfNG3L6sJSJnUmRGHnmnJlHz/gEEIqHUtsCXjeeaeEEQiEYoFacZlXwomEWFiovAw1gALqLFNClSr9HEcVtkRPTKk0eO9+XeJwOYp8Ku7tSg/RQwPS6fXrMARiGVL58MucocsQkWRNqXd5oY7G3LfI0sg452A7oXK6HSj1HtKkmnCic4+dkT25lPAdZCx22J/hZGOvg9KrRomWfhHIEGztDwYNhkqrPmy6Mx2C1QsV7uysGyxQMFWcS2B6TgfweeelcpZRLoTmsmkhnNYqSM240QccQ9FzKZLVPX5dmG53NIMlu7c80B5K+aa+lSUUGpbppef/L+AGJlct9GWOI4gAAAABJRU5ErkJggg==") !important;
+    &:before {
+      content: ''
+    }
+  }
+  .dx-toolbar-button {
+    .dx-item-content {
+      .toggle-sidebar {
+        .dx-button-content {
+          .dx-icon-menu {
+            &:before {
+              color: #00703c;
+            }
+          }
+        }
+      }
+    }
+  }
+}

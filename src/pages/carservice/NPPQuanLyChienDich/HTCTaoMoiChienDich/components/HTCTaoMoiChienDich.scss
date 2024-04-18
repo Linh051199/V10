@@ -1,0 +1,31 @@
+.htctaomoichiendich {
+  .dx-datagrid-header-panel {
+    display: none;
+  }
+
+  .base-gridview {
+    height: 350px;
+  }
+
+  .dx-datagrid-rowsview .dx-selection.dx-row:not(.dx-row-focused) > td {
+    background-color: #b8e1b5 !important;
+  }
+
+  .btn-cancel {
+    .dx-button-text {
+      color: #000;
+    }
+  }
+
+  .dx-popup-wrapper {
+    .base-gridview {
+      height: 500px !important;
+      z-index: 1;
+    }
+
+    .dx-popup-bottom {
+      overflow: hidden;
+      z-index: 999999 !important;
+    }
+  }
+}

@@ -1,0 +1,99 @@
+.donhang {
+  .dx-field-item:not(.dx-field-item-has-group):not(.dx-field-item-has-tabs):not(
+      .dx-first-row
+    ):not(.dx-label-v-align) {
+    padding-top: 10px !important;
+  }
+
+  .form-store {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .dx-field-item-label-content {
+    text-align: right;
+    color: #222222 !important;
+    font-weight: 600;
+  }
+
+  .dx-tabs-wrapper {
+    background-color: white;
+  }
+
+  .dx-item.dx-tab {
+    background-color: white;
+    border-right: 1px solid #dee2e6;
+    border-left: 1px solid #dee2e6;
+    border-top: 1px solid #dee2e6;
+  }
+
+  .dx-item.dx-tab.dx-tab-selected {
+    background-color: white;
+    border-right: 1px solid #dee2e6;
+    border-left: 1px solid #dee2e6;
+    &::before {
+      bottom: none;
+      top: 0;
+    }
+  }
+
+  .dx-item-content.dx-multiview-item-content {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  .dx-texteditor-container {
+    border: 1px solid #d5d5d5 !important;
+  }
+
+  .dx-datagrid {
+    .dx-item.dx-toolbar-item.dx-toolbar-button {
+      .dx-texteditor-container {
+        margin-right: 10px;
+        border: 1px solid #d5d5d5 !important;
+      }
+    }
+  }
+}
+
+//#d5d5d5
+
+.dx-cell-focus-disabled {
+  .dx-texteditor-input {
+    text-align: right;
+  }
+}
+
+.dx-texteditor-input-container {
+  input {
+    text-align: right;
+  }
+}
+
+.dx-texteditor.dx-editor-filled::after {
+  border-bottom: none !important;
+}
+
+.dx-texteditor.dx-state-active::before,
+.dx-texteditor.dx-state-focused::before {
+  border-color: transparent !important;
+}
+
+.dx-datagrid-rowsview
+  .dx-adaptive-detail-row.dx-selection:hover:not(.dx-edit-row)
+  .dx-cell-modified,
+.dx-datagrid-rowsview
+  .dx-adaptive-detail-row.dx-selection:not(.dx-edit-row)
+  .dx-cell-modified,
+.dx-datagrid-rowsview
+  .dx-adaptive-detail-row:not(.dx-edit-row)
+  .dx-cell-modified,
+.dx-datagrid-rowsview
+  .dx-data-row.dx-selection:hover:not(.dx-edit-row)
+  .dx-cell-modified,
+.dx-datagrid-rowsview
+  .dx-data-row.dx-selection:not(.dx-edit-row)
+  .dx-cell-modified,
+.dx-datagrid-rowsview .dx-data-row:not(.dx-edit-row) .dx-cell-modified {
+  background-color: transparent !important;
+}

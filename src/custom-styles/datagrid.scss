@@ -1,0 +1,62 @@
+.dx-datagrid {
+  .dx-datagrid-header-panel {
+    .dx-toolbar {
+      .dx-toolbar-after {
+        .dx-toolbar-item {
+          &.dx-toolbar-button {
+            &:has(div.column-chooser) {
+              width: 10px;
+            }
+          }
+          
+        }
+      }
+    }
+  }
+  .dx-datagrid-rowsview {
+    .dx-datagrid-table {
+      .dx-row[role='row'] {
+        border-top: 1px solid #E8E8E8;
+      }
+      
+    }
+  }
+  .dx-datagrid-headers, .dx-datagrid-rowsview {
+    .dx-row {
+      td {
+        &[role='columnheader'] {
+          padding-top: 18px;
+          padding-bottom: 18px;
+          font-weight: 600;
+        }
+        &[role='gridcell'] {
+          padding-top: 18px;
+          padding-bottom: 18px;
+          font-size: 14px;
+        }
+        &.dx-pointer-events-none {
+          border: none !important;
+        }
+      }
+      &.dx-data-row {
+        border-top: none;
+        border-bottom: none;
+        &.dx-state-hover {
+          background: #EAF9F2;
+          .dx-command-select {
+            background: #EAF9F2 !important;
+          }
+          td[role='gridcell'] {
+            background: #EAF9F2 !important;
+          }
+        }
+      }
+    }
+    
+  } 
+  .dx-freespace-row  {
+    td {
+      border: none !important;
+    }
+  }
+}

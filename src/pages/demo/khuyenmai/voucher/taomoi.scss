@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.TaoMoiVoucher {
+  font-family: "Roboto", sans-serif !important;
+  font-optical-sizing: auto;
+
+  .dx-widget {
+    font-family: "Roboto", sans-serif !important;
+  }
+
+  .dx-collection {
+    flex-direction: column !important;
+    align-items: start !important;
+  }
+
+  .dx-radiobutton {
+    width: 100% !important;
+  }
+
+  .dx-radio-value-container {
+    width: 20px !important;
+  }
+}
+
+* {
+  // font-family: "Roboto", sans-serif !important;
+}

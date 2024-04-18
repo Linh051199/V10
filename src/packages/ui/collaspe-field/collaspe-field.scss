@@ -1,0 +1,8 @@
+.collapse-content {
+  max-height: 0;
+  overflow: hidden;
+}
+
+.collapse-content.expanded {
+  max-height: 200px;
+}

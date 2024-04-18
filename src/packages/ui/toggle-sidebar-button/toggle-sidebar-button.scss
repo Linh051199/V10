@@ -1,0 +1,13 @@
+.toggle-sidebar {
+  padding-left: 16px;
+  .dx-button-content {
+    .dx-icon-menu {
+      &:before {
+        color: #00703c;
+      }
+    }
+  }
+}
+.toggle__menu path {
+  fill: #5f7d95 !important;
+}

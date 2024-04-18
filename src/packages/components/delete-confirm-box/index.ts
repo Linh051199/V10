@@ -1,0 +1,1 @@
+export * from "src/packages/components/delete-confirm-box/delete-confirm-box"

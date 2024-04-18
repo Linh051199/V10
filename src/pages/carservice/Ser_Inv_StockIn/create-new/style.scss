@@ -1,0 +1,22 @@
+.FormSearch_SerInvStockInModify {
+  margin-top: 2px;
+}
+#SearchInforPart_Popup {
+  .dx-popup-draggable {
+    .dx-popup-content-scrollable {
+      overflow: hidden !important;
+    }
+  }
+  // dx-row dx-data-row dx-row-lines dx-column-lines
+}
+
+.active-button-click {
+  background-color: #90900c !important;
+}
+// #SearchInforPart_Popup
+//   .dx-datagrid-rowsview
+//   .dx-selection.dx-row:not(.dx-row-focused):not(.dx-row-removed)
+//   > td {
+//   background-color: orange !important;
+//   color: unset;
+// }

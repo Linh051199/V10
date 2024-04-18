@@ -1,0 +1,24 @@
+.Mst_Param {
+  .hook-form-selectbox {
+    label {
+      width: 100px !important;
+      min-width: 100px !important;
+    }
+  }
+
+  .base-gridview {
+    .dx-data-row {
+      height: 200px !important;
+    }
+
+    td {
+      text-wrap: wrap;
+    }
+
+    .dx-texteditor-input-container {
+      textarea {
+        height: 100% !important;
+      }
+    }
+  }
+}

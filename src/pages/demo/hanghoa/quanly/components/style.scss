@@ -1,0 +1,41 @@
+.TimKiemHangHoa {
+  .hook-form-textbox,
+  .hook-form-selectbox,
+  .hook-form-datebox,
+  .hook-form-textarea,
+  .hook-form-upload {
+    label {
+      width: 120px;
+      min-width: 120px;
+      word-break: auto-phrase;
+      font-size: 13px;
+      display: flex;
+      justify-content: end;
+    }
+
+    .dx-texteditor-input[aria-readonly="true"] {
+      font-weight: 600 !important;
+    }
+
+    .dx-placeholder {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .dx-selectbox-container
+      .dx-texteditor-container
+      .dx-texteditor-input-container
+      .dx-placeholder:before {
+      padding: 11px 11px 8px !important;
+    }
+
+    input {
+      font-weight: 600 !important;
+    }
+  }
+
+  .dx-placeholder {
+    font-size: 13px !important;
+  }
+}

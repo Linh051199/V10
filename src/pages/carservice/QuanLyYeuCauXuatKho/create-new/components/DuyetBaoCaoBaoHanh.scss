@@ -1,0 +1,61 @@
+.dx-drawer-opened {
+  .duyetbaocaobaohanh {
+    .header-content {
+      left: 250px;
+      width: calc(100% - 250px);
+    }
+
+    .dtkh {
+      label {
+        min-width: 65px;
+      }
+    }
+
+    .ttkh {
+      input {
+        font-size: 12px;
+      }
+    }
+
+    .ttx {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .header-content {
+      .dms-sidebar__toolbar {
+        display: none;
+      }
+    }
+  }
+}
+
+.image-table {
+  .dx-datagrid-header-panel {
+    display: none;
+  }
+
+  .dx-datagrid-rowsview .dx-selection.dx-row:not(.dx-row-focused) > td {
+    background-color: rgb(207 255 233);
+  }
+
+  .dx-datagrid .dx-datagrid-headers .dx-row td[role="gridcell"],
+  .dx-datagrid .dx-datagrid-rowsview .dx-row td[role="gridcell"] {
+    font-size: 11px;
+  }
+
+  .dx-header-row td[role="columnheader"] .dx-datagrid-text-content {
+    font-size: 11px;
+  }
+}
+
+.ttc {
+  .label {
+    min-width: 130px;
+  }
+}
+
+.cnttkh-two-col {
+  .dx-texteditor-container {
+    margin-left: 24px;
+  }
+}
