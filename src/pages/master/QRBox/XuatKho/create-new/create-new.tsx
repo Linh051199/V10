@@ -2,7 +2,9 @@ import { useI18n } from "@/i18n/useI18n";
 import { BButton, BButtonProps } from "@/packages/components/buttons";
 import { AdminContentLayout } from "@/packages/layouts/admin-content-layout";
 import { Icon } from "@/packages/ui/icons";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
+import { HeaderForm } from "./header-form/header-form";
+import { useRef } from "react";
 
 interface HeaderProps {
   rightButtons: BButtonProps[];
@@ -44,6 +46,7 @@ const Header = ({ rightButtons }: HeaderProps) => {
 export const CreateNew = () => {
   const { t } = useI18n("XuatKho_CreateNew");
   const navigate = useNavigate();
+  const formRef = useRef<any>(null);
 
   //==================Handle==============================================
   const handleCancel = () => {
@@ -164,7 +167,7 @@ export const CreateNew = () => {
         <Header rightButtons={rightButtons} />
       </AdminContentLayout.Slot>
       <AdminContentLayout.Slot name={"Content"}>
-        <HeaderFormEdit />
+        <HeaderForm ref={formRef} />
       </AdminContentLayout.Slot>
     </AdminContentLayout>
   );
