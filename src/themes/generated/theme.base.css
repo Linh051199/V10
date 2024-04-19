@@ -23283,8 +23283,8 @@ input.dx-hidden {
 .dx-field-item-optional .dx-label>span::after,
 .dx-field-item-optional-mark,
 .dx-field-item-required .dx-label>span::after,
-.dx-field-item-required-mark { 
-  color: red !important;  /* Nút sao màu đỏ theo yêu cầu của test*/
+.dx-field-item-required-mark {
+  color: rgba(14,34,61,.6);
 }
 .dx-field-item-custom-label-content .dx-icon {
   width: 14px;

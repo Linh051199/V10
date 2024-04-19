@@ -65,7 +65,7 @@ export const adminRoutes: RouteItem[] = [
   },
 
   {
-    key: "Ser_CustomerCar", //  Danh sách khách hàng  
+    key: "Ser_CustomerCar", //  Danh sách khách hàng
     path: "admin/Ser_CustomerCar",
     subMenuTitle: "Ser_CustomerCar -  Danh sách khách hàng",
     mainMenuKey: "admin",
